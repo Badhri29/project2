@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Login — My Simple Website</title>
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+  <main class="center">
+    <div class="card">
+      <h2>Login</h2>
+      <!-- Replace YOUR_RAILWAY_APP with your Railway app domain (example: my-app.up.railway.app) -->
+      <form action="https://YOUR_RAILWAY_APP.up.railway.app/login" method="post">
+        <div class="field">
+          <label for="email">Email</label>
+          <input id="email" name="email" type="email" required>
+        </div>
+        <div class="field">
+          <label for="password">Password</label>
+          <input id="password" name="password" type="password" required>
+        </div>
+        <button class="submit" type="submit">Sign In</button>
+      </form>
+      <a class="small-link" href="register.html">Create an account</a>
+    </div>
+  </main>
+</body>
+</html>
